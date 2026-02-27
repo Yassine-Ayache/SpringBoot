@@ -7,7 +7,7 @@ import tn.esprit.arctic.championat.repositories.EquipeRepository;
 
 @AllArgsConstructor
 @Service
-public class EquipeService {
+public class EquipeService implements IEquipeService{
     EquipeRepository er;
     public Equipe ajouterEquipe(Equipe equipe) {
         return er.save(equipe);

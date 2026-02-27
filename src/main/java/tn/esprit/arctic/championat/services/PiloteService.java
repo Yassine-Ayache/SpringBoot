@@ -7,7 +7,7 @@ import tn.esprit.arctic.championat.repositories.PiloteRepository;
 
 @AllArgsConstructor
 @Service
-public class PiloteService{
+public class PiloteService implements IPiloteService{
     PiloteRepository pr;
     public String addPilote(Pilote p) {
         pr.save(p);
