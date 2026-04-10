@@ -7,5 +7,5 @@ import tn.esprit.arctic.championat.repositories.ChampionnatRepository;
 @AllArgsConstructor
 @Service
 public class ChampionnatService {
-    ChampionnatRepository cr;
+    ChampionnatRepository chr;
 }
